@@ -1,0 +1,14 @@
+/* Correctly styles all nested .class2 elements within .class1 */
+.class1 .class2 {
+  /* styles */
+}
+
+/* Alternative solution using the general sibling combinator (~) if the order of elements matters */
+.class1 ~ .class2 {
+  /* styles */
+}
+
+/* Another alternative using a more specific selector, such as a unique ID if available */
+#container .class1 .class2 {
+  /* styles */
+}
