@@ -1,0 +1,1 @@
+The CSS rule `.class1 .class2` will only apply to `.class2` elements that are direct descendants of elements with class `.class1`. If `.class2` is nested deeper, for example within a `<div>` element, it won't be styled. This can cause unexpected styling inconsistencies if you intend for the rule to apply to all nested instances of `.class2`.
